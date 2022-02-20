@@ -2,13 +2,13 @@
 *This is a learning for me to use git tools
 */
 
-#int <stdio.h>
+#include <stdio.h>
 
-int main ( ){
+int main(){
 
-	printf ("Hello World!!");
-	printf ("I need a lot of money");
-	return 0
+	printf("Hello World!!\n");
+	printf("I need a lot of money\n");
+	return 0;
 }
 
 
