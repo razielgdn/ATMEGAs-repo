@@ -1,9 +1,11 @@
 #include <stdio.h>
 
+// Funcion de suma
 int add(int sumA, int sumB){
 	return sumA+ sumB;
 }
 
+//Funcion de resta:
 int rest(int delA, int delB){
 	return delA+ delB;
 }

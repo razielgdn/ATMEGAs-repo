@@ -1,7 +1,13 @@
 #ifndef ARITHMETICS_H
 #define ARITHMETICS_H
+// Global variables
 int variableA;
 int variableB;
+// Static variables
+
+//Constant variables
+ 
+// Funcitons
 
 int add(int sumA, int sumB);
 
