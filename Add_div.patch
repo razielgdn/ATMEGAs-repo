@@ -1,0 +1,45 @@
+diff --git a/learning/arithmetics.c b/learning/arithmetics.c
+index 610f278..45b02d4 100644
+--- a/learning/arithmetics.c
++++ b/learning/arithmetics.c
+@@ -11,17 +11,5 @@ int rest(int delA, int delB){
+ int mult(int multA, int multB){
+ 	
+ 	return multA + multB;
++	
+ }
+-
+-float divide(int divA, int divB){
+-	float result=0;
+-	if(divB == 0)
+-		{
+-		printf("Error, division entre cero\n");
+-		}
+-	else
+-		{
+-		 	result= (float)(divA/divB);
+-		}	
+-		return result;
+-	}
+diff --git a/learning/arithmetics.h b/learning/arithmetics.h
+index 2a82062..d164a13 100644
+--- a/learning/arithmetics.h
++++ b/learning/arithmetics.h
+@@ -9,5 +9,4 @@ int rest(int delA, int delB);
+ 
+ int mult(int multA, int multB);
+ 
+-float divide(int divA, int divB);
+ #endif 
+diff --git a/learning/main.c b/learning/main.c
+index 9d36202..99e81e1 100644
+--- a/learning/main.c
++++ b/learning/main.c
+@@ -18,7 +18,6 @@ int main(){
+ 	scanf("%d", &variableB);
+ 	
+ 	printf ("La suma de los 2 numeros es: %d + %d = %d\n",variableA, variableB, add( variableA, variableB));
+-	printf("La division de los 2 numeros es: %d + %d = %f\n",variableA, variableB, divide( variableA, variableB));
+ 	return 0;
+ }
+ 
