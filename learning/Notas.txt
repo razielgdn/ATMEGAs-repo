@@ -1,0 +1,4 @@
+Notas del dia
+
+20/feb/2022
+Aprendimos a utilizar los comando de Git de mejor manera

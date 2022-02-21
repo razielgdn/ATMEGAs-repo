@@ -22,6 +22,7 @@ int main(){
 	
 	/*
 	Agregando comentarios al proyecto
+	Se utilizan tecnicas de mejor codificacion
 		*/
 	return 0;
 }
