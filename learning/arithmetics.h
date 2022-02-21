@@ -9,4 +9,5 @@ int rest(int delA, int delB);
 
 int mult(int multA, int multB);
 
+float divide(int divA, int divB);
 #endif 

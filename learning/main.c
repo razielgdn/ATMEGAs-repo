@@ -18,6 +18,7 @@ int main(){
 	scanf("%d", &variableB);
 	
 	printf ("La suma de los 2 numeros es: %d + %d = %d\n",variableA, variableB, add( variableA, variableB));
+	printf("La division de los 2 numeros es: %d + %d = %f\n",variableA, variableB, divide( variableA, variableB));
 	return 0;
 }
 
